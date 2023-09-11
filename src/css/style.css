@@ -1,0 +1,13 @@
+.hero-bg {
+  background: linear-gradient(106deg, #e0f5fa -1.4%, #fffde6 100.87%);
+}
+.jack-box-shadow {
+  box-shadow: 0px 25px 100px 0px rgba(69, 88, 157, 0.08);
+}
+.plan {
+  fill: #f7f8fb;
+}
+.annual:hover {
+  fill: #fff;
+  filter: drop-shadow(0px 3px 3.799999952316284px rgba(38, 78, 118, 0.1));
+}
