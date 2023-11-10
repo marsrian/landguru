@@ -75,7 +75,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mt-14">
           <div>
             <h1
-              class="text-[#02073E] font-sans text-4xl md:text-[85px] leading-20 md:leading-[100px] text-center md:text-start dark:text-white"
+              class="text-[#02073E] font-sans text-4xl md:text-[85px] leading-10 md:leading-[100px] text-center md:text-start dark:text-white mt-10 md:mt-0"
             >
               Learn Design <br />
               with Nia Matos
@@ -129,7 +129,7 @@
             Quality features
           </h5>
           <h3
-            class="text-center text-[#0F2137] leading-[55px] font-bold text-4xl font-sans dark:text-white"
+            class="text-center text-[#0F2137] leading-10 md:leading-[55px] font-bold text-4xl font-sans dark:text-white"
           >
             Tutorials that people love most
           </h3>
@@ -191,8 +191,8 @@
           </div>
         </section>
         <!-- Smart Jackpots Section -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mt-40">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mt-24 md:mt-40">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 order-2 md:order-1">
             <!-- 1st Card -->
             <div
               class="px-[50px] py-24 rounded-[10px] bg-white jack-box-shadow h-[320px] md:mt-14"
@@ -246,12 +246,12 @@
               </p>
             </div>
           </div>
-          <div>
-            <h5 class="text-[#EF9E48] font-bold leading-10 uppercase mb-2">
+          <div class='order-1 md:order-2 mb-6 md:mb-0'>
+            <h5 class="text-[#EF9E48] text-center md:text-start font-bold leading-10 uppercase mb-1 md:mb-2">
               Core features
             </h5>
             <h2
-              class="text-[#0F2137] dark:text-white text-3xl md:text-5xl font-bold leading-6 md:leading-[55px] mb-10"
+              class="text-[#0F2137] text-justify md:text-start dark:text-white text-3xl md:text-5xl font-bold leading-9 md:leading-[55px] mb-10"
             >
               Smart Jackpots <br />
               that you may love this <br />
@@ -275,26 +275,615 @@
         <!-- Popular Course Section -->
         <section class="mt-32">
           <h5
-            class="text-center text-[#EF9E48] font-bold leading-5 md:leading-10 uppercase"
+            class="text-center text-[#EF9E48] font-bold leading-8 md:leading-10 uppercase"
           >
             Quality features
           </h5>
           <h1
-            class="text-center text-[#0F2137] dark:text-white text-4xl font-bold leading-6 md:leading-[55px] mb-[30px]"
+            class="text-center text-[#0F2137] dark:text-white text-2xl md:text-4xl font-bold leading-9 md:leading-[55px] mb-[30px]"
           >
             Popular Designing Course
           </h1>
           <div>
-            <!-- Todo: -->
+            <!-- Accordion Start: -->
+            <div
+              id="accordion-color"
+              data-accordion="collapse"
+              data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white"
+            >
+              <!-- Accordion-1 -->
+              <h2 id="accordion-color-heading-1">
+                <button
+                  type="button"
+                  class="flex flex-col md:flex-row items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+                  data-accordion-target="#accordion-color-body-1"
+                  aria-expanded="true"
+                  aria-controls="accordion-color-body-1"
+                >
+                  <div class="mb-4 md:mb-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="31"
+                      height="31"
+                      viewBox="0 0 31 31"
+                      fill="none"
+                      class="opacity-100"
+                    >
+                      <path
+                        d="M3.11314 31C2.23519 31 1.52338 30.2882 1.52338 29.4102V1.58968C1.52338 0.711734 2.23519 0 3.11314 0L28.9465 14.3076C28.9465 14.3076 30.1388 15.4999 28.9465 16.6923C27.7542 17.8846 3.11314 31 3.11314 31Z"
+                        fill="#EF9E48"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div
+                      class="flex flex-col md:flex-row md:items-center gap-1 md:gap-4 mb-4 md:mb-0"
+                    >
+                      <p class="md:mb-2">
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <span
+                          class="text-[#0F2137] text-[15px] leading-[30px] opacity-80 ml-2 dark:text-white"
+                          >5.0 (392 reviews)</span
+                        >
+                      </p>
+                      <p class="flex items-center gap-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_3533)">
+                            <path
+                              d="M10 4.03906C13.8212 4.03906 17.2865 6.12968 19.8435 9.52541C20.0522 9.80361 20.0522 10.1923 19.8435 10.4705C17.2865 13.8703 13.8212 15.9609 10 15.9609C6.17879 15.9609 2.71351 13.8703 0.15649 10.4746C-0.0521622 10.1964 -0.0521622 9.8077 0.15649 9.5295C2.71351 6.12968 6.17879 4.03906 10 4.03906ZM9.72589 14.1976C12.2625 14.3572 14.3572 12.2665 14.1976 9.72588C14.0667 7.63117 12.3688 5.9333 10.2741 5.80238C7.73755 5.64283 5.64284 7.73345 5.80239 10.2741C5.9374 12.3647 7.63527 14.0626 9.72589 14.1976ZM9.85272 12.2584C11.2192 12.3443 12.3484 11.2192 12.2584 9.85271C12.1888 8.72353 11.2724 7.81118 10.1432 7.73754C8.77672 7.65162 7.64754 8.77671 7.73755 10.1432C7.81119 11.2765 8.72763 12.1888 9.85272 12.2584Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_3533">
+                              <rect
+                                width="20"
+                                height="20"
+                                fill="white"
+                                transform="matrix(-1 0 0 1 20 0)"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span
+                          class="text-[#343D48] leading-[26px] opacity-80 dark:text-white"
+                          >1,037 students watched</span
+                        >
+                      </p>
+                    </div>
+                    <div>
+                      <h3
+                        class="text-[#0F2137] text-[22px] font-bold leading-8 dark:text-white mb-[7px]"
+                      >
+                        Professional graphic design tutorial full course with
+                        exercise file
+                      </h3>
+                      <p
+                        class="text-[15px] text-[#5D646D] leading-7 md:leading-10 mb-4 md:mb-0"
+                      >
+                        Get your tutorials delivered at let home collect sample
+                        from the victory of the managements.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex gap-4 items-center">
+                    <h3
+                      class="text-[15px] font-bold text-white leading-8 bg-[#3FDBB1] rounded-md px-4 py-[10px]"
+                    >
+                      7 Video Classes <span class="mx-1">|</span> 4 hrs
+                    </h3>
+                    <svg
+                      data-accordion-icon
+                      class="w-3 h-3 rotate-180 shrink-0"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 6"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5 5 1 1 5"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="accordion-color-body-1"
+                class="hidden"
+                aria-labelledby="accordion-color-heading-1"
+              >
+                <div
+                  class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+                >
+                  <p class="mb-2 text-gray-500 dark:text-gray-400 px-2">
+                    Ans: Coming...
+                  </p>
+                </div>
+              </div>
+              <!-- Accordion-2 -->
+              <h2 id="accordion-color-heading-2">
+                <button
+                  type="button"
+                  class="flex flex-col md:flex-row items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+                  data-accordion-target="#accordion-color-body-2"
+                  aria-expanded="true"
+                  aria-controls="accordion-color-body-2"
+                >
+                  <div class="mb-4 md:mb-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="31"
+                      height="31"
+                      viewBox="0 0 31 31"
+                      fill="none"
+                      class="opacity-100"
+                    >
+                      <path
+                        d="M3.11314 31C2.23519 31 1.52338 30.2882 1.52338 29.4102V1.58968C1.52338 0.711734 2.23519 0 3.11314 0L28.9465 14.3076C28.9465 14.3076 30.1388 15.4999 28.9465 16.6923C27.7542 17.8846 3.11314 31 3.11314 31Z"
+                        fill="#EF9E48"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div
+                      class="flex flex-col md:flex-row md:items-center gap-1 md:gap-4 mb-4 md:mb-0"
+                    >
+                      <p class="md:mb-2">
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <span
+                          class="text-[#0F2137] text-[15px] leading-[30px] opacity-80 ml-2 dark:text-white"
+                          >5.0 (392 reviews)</span
+                        >
+                      </p>
+                      <p class="flex items-center gap-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_3533)">
+                            <path
+                              d="M10 4.03906C13.8212 4.03906 17.2865 6.12968 19.8435 9.52541C20.0522 9.80361 20.0522 10.1923 19.8435 10.4705C17.2865 13.8703 13.8212 15.9609 10 15.9609C6.17879 15.9609 2.71351 13.8703 0.15649 10.4746C-0.0521622 10.1964 -0.0521622 9.8077 0.15649 9.5295C2.71351 6.12968 6.17879 4.03906 10 4.03906ZM9.72589 14.1976C12.2625 14.3572 14.3572 12.2665 14.1976 9.72588C14.0667 7.63117 12.3688 5.9333 10.2741 5.80238C7.73755 5.64283 5.64284 7.73345 5.80239 10.2741C5.9374 12.3647 7.63527 14.0626 9.72589 14.1976ZM9.85272 12.2584C11.2192 12.3443 12.3484 11.2192 12.2584 9.85271C12.1888 8.72353 11.2724 7.81118 10.1432 7.73754C8.77672 7.65162 7.64754 8.77671 7.73755 10.1432C7.81119 11.2765 8.72763 12.1888 9.85272 12.2584Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_3533">
+                              <rect
+                                width="20"
+                                height="20"
+                                fill="white"
+                                transform="matrix(-1 0 0 1 20 0)"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span
+                          class="text-[#343D48] leading-[26px] opacity-80 dark:text-white"
+                          >1,037 students watched</span
+                        >
+                      </p>
+                    </div>
+                    <div>
+                      <h3
+                        class="text-[#0F2137] text-[22px] font-bold leading-8 dark:text-white mb-[7px]"
+                      >
+                        Become ultimate photoshop expert within 30 days
+                      </h3>
+                      <p
+                        class="text-[15px] text-[#5D646D] leading-7 md:leading-10 mb-4 md:mb-0"
+                      >
+                        Get your tutorials delivered at let home collect sample
+                        from the victory of the managements.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex gap-4 items-center">
+                    <h3
+                      class="text-[15px] font-bold text-white leading-8 bg-[#3FDBB1] rounded-md px-4 py-[10px]"
+                    >
+                      7 Video Classes <span class="mx-1">|</span> 4 hrs
+                    </h3>
+                    <svg
+                      data-accordion-icon
+                      class="w-3 h-3 rotate-180 shrink-0"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 6"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5 5 1 1 5"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="accordion-color-body-2"
+                class="hidden"
+                aria-labelledby="accordion-color-heading-2"
+              >
+                <div
+                  class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
+                >
+                  <div class="mb-2 text-gray-500 dark:text-gray-400">
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 px-2">
+                      <li class="flex items-center gap-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_766)">
+                            <path
+                              d="M18.7778 18.7778C23.0741 14.4815 23.0741 7.51852 18.7778 3.22222C14.4815 -1.07407 7.51852 -1.07407 3.22222 3.22222C-1.07407 7.51852 -1.07407 14.4815 3.22222 18.7778C7.51852 23.0741 14.486 23.0741 18.7778 18.7778ZM7.05612 9.31874L9.52974 11.7924L14.9484 6.37823L16.8653 8.29517L11.4512 13.7093L9.52974 15.6263L7.61279 13.7093L5.13917 11.2357L7.05612 9.31874Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_766">
+                              <rect width="22" height="22" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span>
+                          How to reduce file pixel dimentions without loosing
+                          quality
+                        </span>
+                      </li>
+                      <li class="flex items-center gap-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_766)">
+                            <path
+                              d="M18.7778 18.7778C23.0741 14.4815 23.0741 7.51852 18.7778 3.22222C14.4815 -1.07407 7.51852 -1.07407 3.22222 3.22222C-1.07407 7.51852 -1.07407 14.4815 3.22222 18.7778C7.51852 23.0741 14.486 23.0741 18.7778 18.7778ZM7.05612 9.31874L9.52974 11.7924L14.9484 6.37823L16.8653 8.29517L11.4512 13.7093L9.52974 15.6263L7.61279 13.7093L5.13917 11.2357L7.05612 9.31874Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_766">
+                              <rect width="22" height="22" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span>
+                          How to make logo pixel perfects with different
+                          extension
+                        </span>
+                      </li>
+                      <li class="flex items-center gap-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_766)">
+                            <path
+                              d="M18.7778 18.7778C23.0741 14.4815 23.0741 7.51852 18.7778 3.22222C14.4815 -1.07407 7.51852 -1.07407 3.22222 3.22222C-1.07407 7.51852 -1.07407 14.4815 3.22222 18.7778C7.51852 23.0741 14.486 23.0741 18.7778 18.7778ZM7.05612 9.31874L9.52974 11.7924L14.9484 6.37823L16.8653 8.29517L11.4512 13.7093L9.52974 15.6263L7.61279 13.7093L5.13917 11.2357L7.05612 9.31874Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_766">
+                              <rect width="22" height="22" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span>
+                          Create vector file from restarize layer styles
+                        </span>
+                      </li>
+                      <li class="flex items-center gap-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_766)">
+                            <path
+                              d="M18.7778 18.7778C23.0741 14.4815 23.0741 7.51852 18.7778 3.22222C14.4815 -1.07407 7.51852 -1.07407 3.22222 3.22222C-1.07407 7.51852 -1.07407 14.4815 3.22222 18.7778C7.51852 23.0741 14.486 23.0741 18.7778 18.7778ZM7.05612 9.31874L9.52974 11.7924L14.9484 6.37823L16.8653 8.29517L11.4512 13.7093L9.52974 15.6263L7.61279 13.7093L5.13917 11.2357L7.05612 9.31874Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_766">
+                              <rect width="22" height="22" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span>
+                          Make color gradient with photoshop build-in tools
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion-3 -->
+              <h2 id="accordion-color-heading-3">
+                <button
+                  type="button"
+                  class="flex flex-col md:flex-row items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+                  data-accordion-target="#accordion-color-body-3"
+                  aria-expanded="true"
+                  aria-controls="accordion-color-body-3"
+                >
+                  <div class="mb-4 md:mb-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="31"
+                      height="31"
+                      viewBox="0 0 31 31"
+                      fill="none"
+                      class="opacity-100"
+                    >
+                      <path
+                        d="M3.11314 31C2.23519 31 1.52338 30.2882 1.52338 29.4102V1.58968C1.52338 0.711734 2.23519 0 3.11314 0L28.9465 14.3076C28.9465 14.3076 30.1388 15.4999 28.9465 16.6923C27.7542 17.8846 3.11314 31 3.11314 31Z"
+                        fill="#EF9E48"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div
+                      class="flex flex-col md:flex-row md:items-center gap-1 md:gap-4 mb-4 md:mb-0"
+                    >
+                      <p class="md:mb-2">
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <span
+                          class="text-[#0F2137] text-[15px] leading-[30px] opacity-80 ml-2 dark:text-white"
+                          >5.0 (392 reviews)</span
+                        >
+                      </p>
+                      <p class="flex items-center gap-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_3533)">
+                            <path
+                              d="M10 4.03906C13.8212 4.03906 17.2865 6.12968 19.8435 9.52541C20.0522 9.80361 20.0522 10.1923 19.8435 10.4705C17.2865 13.8703 13.8212 15.9609 10 15.9609C6.17879 15.9609 2.71351 13.8703 0.15649 10.4746C-0.0521622 10.1964 -0.0521622 9.8077 0.15649 9.5295C2.71351 6.12968 6.17879 4.03906 10 4.03906ZM9.72589 14.1976C12.2625 14.3572 14.3572 12.2665 14.1976 9.72588C14.0667 7.63117 12.3688 5.9333 10.2741 5.80238C7.73755 5.64283 5.64284 7.73345 5.80239 10.2741C5.9374 12.3647 7.63527 14.0626 9.72589 14.1976ZM9.85272 12.2584C11.2192 12.3443 12.3484 11.2192 12.2584 9.85271C12.1888 8.72353 11.2724 7.81118 10.1432 7.73754C8.77672 7.65162 7.64754 8.77671 7.73755 10.1432C7.81119 11.2765 8.72763 12.1888 9.85272 12.2584Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_3533">
+                              <rect
+                                width="20"
+                                height="20"
+                                fill="white"
+                                transform="matrix(-1 0 0 1 20 0)"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span
+                          class="text-[#343D48] leading-[26px] opacity-80 dark:text-white"
+                          >1,037 students watched</span
+                        >
+                      </p>
+                    </div>
+                    <div>
+                      <h3
+                        class="text-[#0F2137] text-[22px] font-bold leading-8 dark:text-white mb-[7px]"
+                      >
+                      After effects animation tutorial with photoshop documents
+                      </h3>
+                      <p
+                        class="text-[15px] text-[#5D646D] leading-7 md:leading-10 mb-4 md:mb-0"
+                      >
+                      Get your tutorials delivered at let home collect sample from the victory of the managements.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex gap-4 items-center">
+                    <h3
+                      class="text-[15px] font-bold text-white leading-8 bg-[#3FDBB1] rounded-md px-4 py-[10px]"
+                    >
+                      7 Video Classes <span class="mx-1">|</span> 4 hrs
+                    </h3>
+                    <svg
+                      data-accordion-icon
+                      class="w-3 h-3 rotate-180 shrink-0"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 6"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5 5 1 1 5"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="accordion-color-body-3"
+                class="hidden"
+                aria-labelledby="accordion-color-heading-3"
+              >
+                <div
+                  class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+                >
+                  <p class="mb-2 text-gray-500 dark:text-gray-400">
+                    Ans: 3 Coming...
+                  </p>
+                </div>
+              </div>
+              <!-- Accordion-4 -->
+              <h2 id="accordion-color-heading-4">
+                <button
+                  type="button"
+                  class="flex flex-col md:flex-row items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+                  data-accordion-target="#accordion-color-body-4"
+                  aria-expanded="true"
+                  aria-controls="accordion-color-body-4"
+                >
+                  <div class="mb-4 md:mb-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="31"
+                      height="31"
+                      viewBox="0 0 31 31"
+                      fill="none"
+                      class="opacity-100"
+                    >
+                      <path
+                        d="M3.11314 31C2.23519 31 1.52338 30.2882 1.52338 29.4102V1.58968C1.52338 0.711734 2.23519 0 3.11314 0L28.9465 14.3076C28.9465 14.3076 30.1388 15.4999 28.9465 16.6923C27.7542 17.8846 3.11314 31 3.11314 31Z"
+                        fill="#EF9E48"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div
+                      class="flex flex-col md:flex-row md:items-center gap-1 md:gap-4 mb-4 md:mb-0"
+                    >
+                      <p class="md:mb-2">
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <i class="fa-solid fa-star text-yellow-500"></i>
+                        <span
+                          class="text-[#0F2137] text-[15px] leading-[30px] opacity-80 ml-2 dark:text-white"
+                          >5.0 (392 reviews)</span
+                        >
+                      </p>
+                      <p class="flex items-center gap-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                        >
+                          <g clip-path="url(#clip0_1_3533)">
+                            <path
+                              d="M10 4.03906C13.8212 4.03906 17.2865 6.12968 19.8435 9.52541C20.0522 9.80361 20.0522 10.1923 19.8435 10.4705C17.2865 13.8703 13.8212 15.9609 10 15.9609C6.17879 15.9609 2.71351 13.8703 0.15649 10.4746C-0.0521622 10.1964 -0.0521622 9.8077 0.15649 9.5295C2.71351 6.12968 6.17879 4.03906 10 4.03906ZM9.72589 14.1976C12.2625 14.3572 14.3572 12.2665 14.1976 9.72588C14.0667 7.63117 12.3688 5.9333 10.2741 5.80238C7.73755 5.64283 5.64284 7.73345 5.80239 10.2741C5.9374 12.3647 7.63527 14.0626 9.72589 14.1976ZM9.85272 12.2584C11.2192 12.3443 12.3484 11.2192 12.2584 9.85271C12.1888 8.72353 11.2724 7.81118 10.1432 7.73754C8.77672 7.65162 7.64754 8.77671 7.73755 10.1432C7.81119 11.2765 8.72763 12.1888 9.85272 12.2584Z"
+                              fill="#B5C3CB"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_3533">
+                              <rect
+                                width="20"
+                                height="20"
+                                fill="white"
+                                transform="matrix(-1 0 0 1 20 0)"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <span
+                          class="text-[#343D48] leading-[26px] opacity-80 dark:text-white"
+                          >1,037 students watched</span
+                        >
+                      </p>
+                    </div>
+                    <div>
+                      <h3
+                        class="text-[#0F2137] text-[22px] font-bold leading-8 dark:text-white mb-[7px]"
+                      >
+                      Adobe illustrator vector art design mockup
+                      </h3>
+                      <p
+                        class="text-[15px] text-[#5D646D] leading-7 md:leading-10 mb-4 md:mb-0"
+                      >
+                        Get your tutorials delivered at let home collect sample
+                        from the victory of the managements.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex gap-4 items-center">
+                    <h3
+                      class="text-[15px] font-bold text-white leading-8 bg-[#3FDBB1] rounded-md px-4 py-[10px]"
+                    >
+                      7 Video Classes <span class="mx-1">|</span> 4 hrs
+                    </h3>
+                    <svg
+                      data-accordion-icon
+                      class="w-3 h-3 rotate-180 shrink-0"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 6"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 5 5 1 1 5"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </h2>
+              <div
+                id="accordion-color-body-4"
+                class="hidden"
+                aria-labelledby="accordion-color-heading-4"
+              >
+                <div
+                  class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
+                >
+                  <p class="mb-2 text-gray-500 dark:text-gray-400">
+                    Ans: 4 Coming...
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <!-- How  It works Section -->
         <section class="mt-32">
-          <h5 class="text-[#EF9E48] text-center font-bold uppercase mb-[2px]">
+          <h5 class="text-[#EF9E48] text-center font-bold uppercase mb-[2px] leading-9">
             Whats the function
           </h5>
           <h3
-            class="text-[#0F2137] dark:text-white text-4xl text-center font-bold leading-[55px] mb-20"
+            class="text-[#0F2137] dark:text-white text-4xl text-center font-bold leading-9 md:leading-[55px] mb-20"
           >
             Let’s see how it works
           </h3>
@@ -404,7 +993,7 @@
             Pricing Plan
           </h5>
           <h3
-            class="text-[#0F2137] dark:text-white text-4xl font-bold leading-[55px] text-center mb-10"
+            class="text-[#0F2137] dark:text-white text-4xl font-bold leading-10 md:leading-[55px] text-center mb-10"
           >
             Choose your pricing policy
           </h3>
@@ -423,7 +1012,7 @@
           <div class="flex flex-col md:flex-row justify-center gap-4 md:gap-8">
             <!-- Free Plan -->
             <div
-              class="rounded-[10px] border border-[#F3F4F5] hover:border-[#3FDBB1] bg-white py-[70px] px-10 w-full md:w-[480px]"
+              class="rounded-[10px] border border-[#F3F4F5] hover:border-[#3FDBB1] bg-white py-[70px] px-4 md:px-10 w-full md:w-[480px]"
             >
               <h5 class="text-[#0F2137] font-bold text-[22px] mb-[6px]">
                 Free Plan
@@ -556,7 +1145,7 @@
             </div>
             <!-- Premium Plan -->
             <div
-              class="rounded-[10px] border border-[#F3F4F5] hover:border-[#3FDBB1] bg-white py-[70px] px-10 w-full md:w-[480px]"
+              class="rounded-[10px] border border-[#F3F4F5] hover:border-[#3FDBB1] bg-white py-[70px] px-4 md:px-10 w-full md:w-[480px]"
             >
               <div class="flex justify-between">
                 <div>
@@ -716,7 +1305,6 @@
                       >5.0 (392 reviews)</span
                     >
                   </p>
-
                   <h5
                     class="text-[#0F2137] text-xl font-bold leading-[30px] mb-5"
                   >
@@ -802,14 +1390,14 @@
                 </div>
               </div>
             </div>
-            <div class="order-1 md:order-2">
+            <div class="order-1 md:order-2 mb-8 md:mb-0">
               <h6
                 class="text-[#EF9E48] font-bold leading-10 uppercase tracking-widest mb-2"
               >
                 Free tutorial
               </h6>
               <h3
-                class="text-[#0F2137] dark:text-white text-5xl font-bold leading-[55px] mb-10"
+                class="text-[#0F2137] dark:text-white text-3xl  md:text-5xl font-bold leading-9 md:leading-[55px] mb-6 md:mb-10"
               >
                 More than thousand of free tutorial upload every weeks
               </h3>
@@ -837,7 +1425,7 @@
             Frequent Question
           </h5>
           <h3
-            class="text-[#0F2137] dark:text-white text-4xl font-bold leading-[55px] text-center mb-16"
+            class="text-[#0F2137] dark:text-white text-4xl font-bold leading-10 md:leading-[55px] text-center mb-16"
           >
             Do you have any question
           </h3>
@@ -1021,9 +1609,9 @@
           </div>
         </section>
         <!--  -->
-        <section class="mt-32">
+        <section class="mt-16 md:mt-32">
           <h1
-            class="text-[#02073E] dark:text-white font-bold text-5xl leading-[1.3] w-full md:w-[908px] text-center mx-auto -tracking-[0.125] mb-[60px]"
+            class="text-[#02073E] dark:text-white font-bold text-3xl md:text-5xl leading-[1.3] w-full md:w-[908px] text-center mx-auto -tracking-[0.125] mb-8 md:mb-[60px]"
           >
             Ready to learn design <br />
             with Nia Matos
@@ -1096,10 +1684,15 @@
             </ul>
           </div>
         </div>
+        <p
+          class="text-center text-[#02073E] opacity-80 dark:text-white mt-6 pb-6"
+        >
+          ©copyright all right reserved - Mars Rian
+        </p>
       </footer>
-      <!-- Script File -->
-      <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-      <script src="./src/js/script.js"></script>
     </div>
+    <!-- Script File -->
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
