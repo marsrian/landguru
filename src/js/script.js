@@ -1,3 +1,4 @@
+// Dark Mode:
 let themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 let themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
