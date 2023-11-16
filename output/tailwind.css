@@ -1054,6 +1054,10 @@ input:checked + .toggle-bg {
   inset: 0px;
 }
 
+.-left-52 {
+  left: -13rem;
+}
+
 .-top-1 {
   top: -0.25rem;
 }
@@ -1220,6 +1224,10 @@ input:checked + .toggle-bg {
   margin-top: 0.5rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -1238,10 +1246,6 @@ input:checked + .toggle-bg {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .block {
@@ -1300,6 +1304,10 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-\[320px\] {
   height: 320px;
 }
@@ -1314,6 +1322,10 @@ input:checked + .toggle-bg {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
 }
 
 .w-16 {
@@ -1711,11 +1723,6 @@ input:checked + .toggle-bg {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .px-\[18px\] {
@@ -2288,8 +2295,16 @@ input:checked + .toggle-bg {
     margin-top: 10rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:w-\[376px\] {

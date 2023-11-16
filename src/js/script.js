@@ -38,3 +38,31 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
+
+// Mobile Menu Open: 
+document.getElementById("menuBars").addEventListener("click", () => {
+    const barsButton = document.getElementById("menuBars");
+    const closeButton = document.getElementById("menuClose");
+    const list = document.getElementById("menuList");
+
+    barsButton.style.display = "none";
+    closeButton.style.display = "block";
+
+    list.style.left = "0px";
+    list.style.top = "71px";
+    list.style.transitionDuration = "1000ms";
+});
+
+// Mobile Menu Close: 
+document.getElementById("menuClose").addEventListener("click", () => {
+    const barsButton = document.getElementById("menuBars");
+    const closeButton = document.getElementById("menuClose");
+    const list = document.getElementById("menuList");
+
+    barsButton.style.display = "block";
+    closeButton.style.display = "none";
+
+    list.style.left = "-165px"; 
+    list.style.top = "70px";
+    list.style.transitionDuration = "1000ms";
+});

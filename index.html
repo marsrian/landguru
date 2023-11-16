@@ -21,13 +21,14 @@
     <title>Landguru</title>
   </head>
   <body class="hero-bg">
-    <div class="dark:bg-gray-700 pt-4 md:pt-8 px-8 md:px-20">
+    <div class="dark:bg-gray-700 pt-4 md:pt-8 px-4 md:px-20">
       <header>
         <nav
-          class="flex items-center justify-between mb-10 fixed w-full mx-auto bg-gray-400 top-0 left-0 right-0 z-50 p-4"
+          class="flex items-center justify-between mb-10 fixed bg-gray-400 top-0 left-0 right-0 z-50 p-4"
         >
           <img src="src/images/logo.png" alt="" />
-          <ul class="md:flex gap-8 text-[#02073E] dark:text-white hidden">
+          <!-- Desktop Mode -->
+          <ul class="hidden md:flex gap-8 text-[#02073E] dark:text-white">
             <li>Home</li>
             <li>Advertise</li>
             <li>Supports</li>
@@ -66,10 +67,35 @@
             </svg>
           </button>
           <button
-            class="text-[#EF9E48] font-bold font-sans border-2 border-[fcf2e8] px-3 py-2 rounded-md"
+            class="hidden md:block text-[#EF9E48] font-bold font-sans border-2 border-[fcf2e8] px-3 py-2 rounded-md"
           >
             Try for Free
           </button>
+          <!-- Mobile Mode -->
+          <div class="md:hidden">
+            <ul
+              id="menuList"
+              class="absolute -left-52 bg-gray-800 p-4 w-1/3 text-white h-[100vh] flex items-center flex-col gap-8"
+            >
+              <li>Home</li>
+              <li>Advertise</li>
+              <li>Supports</li>
+              <li>Contact</li>
+              <li>
+                <button
+                  class="text-[#EF9E48] font-bold font-sans border-2 border-[fcf2e8] px-3 py-2 rounded-md"
+                >
+                  Try for Free
+                </button>
+              </li>
+            </ul>
+            <button id="menuBars">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <button id="menuClose" class="hidden">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
         </nav>
         <!-- Hero Section -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 mt-14">
@@ -191,8 +217,12 @@
           </div>
         </section>
         <!-- Smart Jackpots Section -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mt-24 md:mt-40">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 order-2 md:order-1">
+        <section
+          class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 mt-24 md:mt-40"
+        >
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 order-2 md:order-1"
+          >
             <!-- 1st Card -->
             <div
               class="px-[50px] py-24 rounded-[10px] bg-white jack-box-shadow h-[320px] md:mt-14"
@@ -246,8 +276,10 @@
               </p>
             </div>
           </div>
-          <div class='order-1 md:order-2 mb-6 md:mb-0'>
-            <h5 class="text-[#EF9E48] text-center md:text-start font-bold leading-10 uppercase mb-1 md:mb-2">
+          <div class="order-1 md:order-2 mb-6 md:mb-0">
+            <h5
+              class="text-[#EF9E48] text-center md:text-start font-bold leading-10 uppercase mb-1 md:mb-2"
+            >
               Core features
             </h5>
             <h2
@@ -706,12 +738,14 @@
                       <h3
                         class="text-[#0F2137] text-[22px] font-bold leading-8 dark:text-white mb-[7px]"
                       >
-                      After effects animation tutorial with photoshop documents
+                        After effects animation tutorial with photoshop
+                        documents
                       </h3>
                       <p
                         class="text-[15px] text-[#5D646D] leading-7 md:leading-10 mb-4 md:mb-0"
                       >
-                      Get your tutorials delivered at let home collect sample from the victory of the managements.
+                        Get your tutorials delivered at let home collect sample
+                        from the victory of the managements.
                       </p>
                     </div>
                   </div>
@@ -826,7 +860,7 @@
                       <h3
                         class="text-[#0F2137] text-[22px] font-bold leading-8 dark:text-white mb-[7px]"
                       >
-                      Adobe illustrator vector art design mockup
+                        Adobe illustrator vector art design mockup
                       </h3>
                       <p
                         class="text-[15px] text-[#5D646D] leading-7 md:leading-10 mb-4 md:mb-0"
@@ -879,11 +913,13 @@
         </section>
         <!-- How  It works Section -->
         <section class="mt-32">
-          <h5 class="text-[#EF9E48] text-center font-bold uppercase mb-[2px] leading-9">
+          <h5
+            class="text-[#EF9E48] text-center font-bold uppercase mb-[2px] leading-9"
+          >
             Whats the function
           </h5>
           <h3
-            class="text-[#0F2137] dark:text-white text-4xl text-center font-bold leading-9 md:leading-[55px] mb-20"
+            class="text-[#0F2137] dark:text-white text-2xl md:text-4xl text-center font-bold leading-9 md:leading-[55px] mb-20"
           >
             Let’s see how it works
           </h3>
@@ -993,7 +1029,7 @@
             Pricing Plan
           </h5>
           <h3
-            class="text-[#0F2137] dark:text-white text-4xl font-bold leading-10 md:leading-[55px] text-center mb-10"
+            class="text-[#0F2137] dark:text-white text-2xl md:text-4xl font-bold leading-10 md:leading-[55px] text-center mb-10"
           >
             Choose your pricing policy
           </h3>
@@ -1397,7 +1433,7 @@
                 Free tutorial
               </h6>
               <h3
-                class="text-[#0F2137] dark:text-white text-3xl  md:text-5xl font-bold leading-9 md:leading-[55px] mb-6 md:mb-10"
+                class="text-[#0F2137] dark:text-white text-3xl md:text-5xl font-bold leading-9 md:leading-[55px] mb-6 md:mb-10"
               >
                 More than thousand of free tutorial upload every weeks
               </h3>
@@ -1425,7 +1461,7 @@
             Frequent Question
           </h5>
           <h3
-            class="text-[#0F2137] dark:text-white text-4xl font-bold leading-10 md:leading-[55px] text-center mb-16"
+            class="text-[#0F2137] dark:text-white text-2xl md:text-4xl font-bold leading-10 md:leading-[55px] text-center mb-16"
           >
             Do you have any question
           </h3>
@@ -1611,7 +1647,7 @@
         <!--  -->
         <section class="mt-16 md:mt-32">
           <h1
-            class="text-[#02073E] dark:text-white font-bold text-3xl md:text-5xl leading-[1.3] w-full md:w-[908px] text-center mx-auto -tracking-[0.125] mb-8 md:mb-[60px]"
+            class="text-[#02073E] dark:text-white font-bold text-3xl md:text-5xl text-center -tracking-[0.125] mb-8 md:mb-[60px]"
           >
             Ready to learn design <br />
             with Nia Matos
